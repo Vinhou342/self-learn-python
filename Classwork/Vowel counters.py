@@ -1,0 +1,15 @@
+print("Vowel counter program.")
+word = input("Give a random word: \n")
+word = word.lower()
+
+vowel_a = word.count("a")
+vowel_e = word.count("e")
+vowel_i = word.count("i")
+vowel_o = word.count("o")
+vowel_u = word.count("u")
+
+print(f"The amount of letter a is: {vowel_a}")
+print(f"The amount of letter e is: {vowel_e}")
+print(f"The amount of letter i is: {vowel_i}")
+print(f"The amount of letter o is: {vowel_o}")
+print(f"The amount of letter u is: {vowel_u}")
